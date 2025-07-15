@@ -1,0 +1,12 @@
+### LaynsbProject Customized service
+service laya_battmon /vendor/bin/hw/vendor.laya.battmon@1.8-service
+    seclabel u:r:init:s0
+    class late_start
+    user system
+    group system
+    capabilities BLOCK_SUSPEND DAC_OVERRIDE
+    disabled
+
+on post-fs-data
+    setprop debug.laya.battmon_enabled 1
+    start laya_battmon
