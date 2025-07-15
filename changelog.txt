@@ -1,0 +1,80 @@
+~ V1.8-stable
+• Refine code for better stability and lower overhead
+• Remove static load defaults function to reduce overhead
+• Dynamically saves the current frequencies & governor right before screen locked (alternative of static load defaults)
+• [code] Restore cpu freqs/governor completely if debug.laya.battmon_enabled value was 0
+• Fix schedutil or other folder detected as cpu policy (dumbass logic)
+• Sleep 30s after sys.boot_complete=1 for stability reason
+• Code improvement & misc optimizations
+
+~ V1.7.3-stable
+• Improved log accuracy
+
+~ V1.7.2-stable
+• Optimized in-memory map logic
+• Fixed init ownership (changed to system:system)
+
+~ V1.7.1-stable
+• Optimized apply CPU Freq/gov logic
+• [logic] Added fallback to scaling_min_freq if cpuinfo_min_freq shows an error or abnormalities
+• Updated readme.txt
+
+~ V1.7-stable
+• Optimized looping logic
+• Improved apply & restore CPU freq / governor logic
+• Set to powersave governor when screen off and restore governor back to normal when screen on
+• Loop every 0.5s while screen off to prevent sudden lag (doesn't apply when the screen is on to avoid overhead)
+• Removed unused sugov_ext governor constant
+• Added Dynamic feature toggle (you can disable the battmon thread if needed through property)
+• Reduced power consumption even more and heat control during screen off
+• Minor code improvement & optimization
+
+~ V1.6.1-stable
+• Added initial support for Unisoc devices
+• Minor code changes
+
+~ V1.6-stable
+• Added initial support for Snapdragon devices
+• Improve further get_screen_state() logic
+• Minor changes
+
+~ V1.5-stable
+• Refactor code again
+• Introduce in-memory map
+• Save cpu configuration into in-memory map
+• More logging for easier to spot an error
+• Remove laya_battmon_default creation 
+• Improved lazy static function
+• Optimized stability
+• Significantly Reduced binary overhead
+• Change get_screen_state detection from dumpsys to inotify (thx to @kaminarich for the reference)
+• Updated README for better readability
+• [init] Changed group into root
+• [init] Remove mkdir and chmod
+• [init] Remove unnecessary tag
+
+~ V1.4-test
+• Fixed known issue
+• Improved code
+• Added laya battmon helper to manually create folder in /data/local/tmp
+
+~ V1.3-test
+• Minor changes
+• Removed oneshot and other unnecessary permissions
+• Optimized binary stability
+
+~ V1.2-test
+• Refactor code
+• Added adaptive polling
+• Reduce overhead by 10%
+• Remove freq log file
+
+~ V1.1-test
+• Added sys boot complete
+• [code] Use spawn(); instead of output
+• More efficient code and reduced overhead
+• Added auto Remove freq log after restarting device
+• Reduce logging
+
+~ V1.0-test
+• Initial battmon test
