@@ -1,0 +1,22 @@
+--- Laya BatteryMonitor Service ---
+# Developed By @Laynsb on telegram
+# Inspired by @kaminarich (battery honey developer)
+# Don't forgot to give me a small credit to appreciate my works 😁
+
+# Dynamic feature toggle
+•> debug.laya.battmon_enabled=1 (default) means thread process is running
+•> debug.laya.battmon_enabled=0 means thread process is temporary terminated and goes into sleep mode
+
+# How to Implement Laya Batterymonitor into my vendor?
+Step 1: Place vendor.laya.battmon@1.x-service binary to /vendor/bin/hw/
+Step 2: Place init.laya_battmon.rc to /vendor/etc/init/
+Step 3: Patch vendor sepolicy cil (ask developer or do it by yourself)
+Step 4: Done, you're great to repack your own vendor.
+
+# Required context:
+• /vendor/bin/hw/vendor.laya.battmon@1.x-service > u:object_r:vendor_file:s0
+• /vendor/etc/init/init.laya_battmon.rc > u:object_r:vendor_configs_file:s0
+
+# Laya battmon denials list:
+(allow init vendor_file (file (execute execute_no_trans)))
+(allow toolbox init (fifo_file (write getattr)))
