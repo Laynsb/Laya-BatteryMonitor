@@ -23,5 +23,4 @@ Licensed under the Laynsb License v1.0
 🚫 Modification of authorship, reverse engineering, or commercial distribution is strictly prohibited.
 
 
-See LICENSE for full t
-erms.
+See LICENSE for full terms.
