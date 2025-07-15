@@ -10,4 +10,18 @@ Laya-BatteryMonitor is a Very lightweight and zero overhead daemon service for A
 
 ## Installation
 
-For installation and integration steps, refer to `README.txt`.
+For installation and integration steps, refer to `guide.txt`.
+
+## LICENSE
+
+Licensed under the Laynsb License v1.0
+
+✅ Free for personal and non-commercial use.
+
+✅ Redistribution is permitted as long as the original binary is kept intact and proper credit to Laynsb is given.
+
+🚫 Modification of authorship, reverse engineering, or commercial distribution is strictly prohibited.
+
+
+See LICENSE for full t
+erms.
