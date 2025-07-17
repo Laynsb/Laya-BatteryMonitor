@@ -20,3 +20,6 @@ Step 4: Done, you're great to repack your own vendor.
 # Laya battmon denials list:
 (allow init vendor_file (file (execute execute_no_trans)))
 (allow toolbox init (fifo_file (write getattr)))
+
+⚠️ In case if battmon crashing, include this policy:
+(allow init init_tmpfs (file (execute)))
