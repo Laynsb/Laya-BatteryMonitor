@@ -1,4 +1,4 @@
---- Laya BatteryMonitor Service ---
+=== Laya BatteryMonitor Service ===
 # Developed By @Laynsb on telegram
 # Inspired by @kaminarich (battery honey developer)
 # Don't forgot to give me a small credit to appreciate my works 😁
@@ -17,7 +17,11 @@ Step 4: Done, you're great to repack your own vendor.
 • /vendor/bin/hw/vendor.laya.battmon@1.x-service > u:object_r:vendor_file:s0
 • /vendor/etc/init/init.laya_battmon.rc > u:object_r:vendor_configs_file:s0
 
-# Laya battmon denials list:
+=== Sepolicy Rules ===
+
+📝 Not all rom has the same denials list, if crashing, error, or acting abnormally then resolve other denials on your own.
+
+## Laya battmon denials list:
 (allow init vendor_file (file (execute execute_no_trans)))
 (allow toolbox init (fifo_file (write getattr)))
 
