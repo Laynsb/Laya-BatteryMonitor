@@ -12,7 +12,7 @@ Laya-BatteryMonitor is a Very lightweight and zero overhead daemon service for A
 
 For installation and integration steps, refer to `guide.txt`.
 
-## Core Behavior (Rust)
+## Core Behavior
 
 • Smart CPU Policy Handling
 Dynamically manages CPU frequency and governor behavior based on screen state changes. Fully adaptive to any device configuration.
