@@ -1,3 +1,8 @@
+~ V1.9-stable (preview, not released yet)
+• Increases loop time to 5s to reduce overhead (also to reduce constantly checking debug.laya.battmon_enabled prop)
+• Improved inotify mechanism
+• Minor code changes
+
 ~ V1.8-stable
 • Refine code for better stability and lower overhead
 • Remove static load defaults function to reduce overhead
@@ -23,7 +28,6 @@
 • Optimized looping logic
 • Improved apply & restore CPU freq / governor logic
 • Set to powersave governor when screen off and restore governor back to normal when screen on
-• Loop every 0.5s while screen off to prevent sudden lag (doesn't apply when the screen is on to avoid overhead)
 • Removed unused sugov_ext governor constant
 • Added Dynamic feature toggle (you can disable the battmon thread if needed through property)
 • Reduced power consumption even more and heat control during screen off
