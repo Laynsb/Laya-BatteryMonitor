@@ -1,7 +1,7 @@
 ~ V1.9-stable (preview, not released yet)
 • Increases loop time to 5s to reduce overhead (also to reduce constantly checking debug.laya.battmon_enabled prop)
-• Improved log message function
-• Use libc::nanosleep instead of thread::sleep for more precise and efficient 
+• Improved log message clarity
+• Use libc::nanosleep instead of thread::sleep for more precise and efficient
 • Added build metadata (Advanced build date)
 • Major refactor code & further code optimizations
 
@@ -9,8 +9,8 @@
 • Refine code for better stability and lower overhead
 • Remove static load defaults function to reduce overhead
 • Dynamically saves the current frequencies & governor right before screen locked (alternative of static load defaults)
-• [code] Restore cpu freqs/governor completely if debug.laya.battmon_enabled value was 0
-• Fix schedutil or other folder detected as cpu policy (dumbass logic)
+• Restore cpu freqs/governor completely if debug.laya.battmon_enabled value was 0
+• Fix schedutil or other folder detected as cpu policy
 • Sleep 30s after sys.boot_complete=1 for stability reason
 • Code improvement & misc optimizations
 
