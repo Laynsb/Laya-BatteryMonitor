@@ -1,7 +1,6 @@
-~ V1.9-stable (preview, not released yet)
+~ V1.9-stable
 • Increases loop time to 5s to reduce overhead (also to reduce constantly checking debug.laya.battmon_enabled prop)
 • Improved log message clarity
-• Use libc::nanosleep instead of thread::sleep for more precise and efficient
 • Added build metadata (Advanced build date)
 • Major refactor code & further code optimizations
 
