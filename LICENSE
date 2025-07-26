@@ -1,45 +1,52 @@
-Laynsb Battery Monitor License
-Version 1.0 - July 2025
+Laya BatteryMonitor License
+Version 1.1 – July 2025
 
 Copyright (c) 2025 Laynsb
 
-This software is provided as a compiled binary only (the "Binary"). 
-No source code is provided. By obtaining, using, copying, or distributing 
-this Binary, you agree to the following terms:
+This software is distributed in binary form only (the “Binary”). 
+By using, copying, embedding, or distributing this Binary, you agree 
+to the following terms:
 
-1. Permission is hereby granted, free of charge, to any person or organization
-   to use, copy, distribute, and embed the Binary for any purpose,
-   including personal, educational, or commercial use.
+1. License Grant:
+   You are granted a royalty-free, non-exclusive license to use, copy, 
+   embed, and distribute the Binary for personal, educational, or 
+   commercial purposes.
 
-2. Attribution is required:
-   Any redistribution, publication, or embedding of this Binary 
-   must include clear credit to "Laynsb" as the original developer. 
-   Example: "Battery monitor by Laynsb."
+2. Attribution Requirement:
+   Any public or private redistribution, publication, or inclusion 
+   of this Binary must include clear and visible credit to the 
+   original developer:
+   
+   **"Battery Monitor by Laynsb"**
+   
+   Attribution must be displayed in a reasonably prominent location 
+   (e.g., About page, documentation, or product credits).
 
-3. No Modification of Binary:
-   You may not modify, reverse engineer, or create derivative works
-   of this Binary.
+3. No Modification or Reverse Engineering:
+   You may not modify, decompile, disassemble, reverse engineer, 
+   or create derivative works from this Binary or attempt to 
+   circumvent any obfuscation or protection mechanisms.
 
-4. Disclaimer of Warranty:
-   This Binary is provided "AS IS", without warranty of any kind,
-   express or implied, including but not limited to warranties of 
-   merchantability, fitness for a particular purpose, or non-infringement.
-   The entire risk arising out of use or performance remains with you.
+4. Warranty Disclaimer:
+   This Binary is provided “AS IS,” without any warranties, express 
+   or implied, including but not limited to merchantability, fitness 
+   for a particular purpose, or non-infringement.
 
 5. Limitation of Liability:
-   In no event shall the author (Laynsb) be liable for any damages 
-   whatsoever (including, without limitation, damages for loss of business 
-   profits, business interruption, loss of business information, or any 
-   other pecuniary loss) arising out of the use of or inability to use 
-   this Binary, even if advised of the possibility of such damages.
+   Under no circumstances shall the author (Laynsb) be liable for any 
+   damages arising from the use or inability to use this Binary, 
+   including but not limited to lost profits, data loss, or other 
+   incidental or consequential damages, even if advised of the possibility.
 
 6. Termination:
-   This license and your rights under it will terminate automatically 
-   if you fail to comply with these terms. Upon termination, you must 
-   cease all use and destroy any copies of the Binary.
+   This license terminates automatically if you violate any of its terms. 
+   Upon termination, all use and distribution of the Binary must cease 
+   immediately.
 
-By using this Binary, you acknowledge that you have read and understand 
-this license, and agree to be bound by its terms.
+7. Governing Law:
+   This License shall be governed by and construed in accordance with 
+   the laws of the jurisdiction of the author's residence, unless 
+   otherwise required by applicable law.
 
-For credits, support, or inquiries, visit:  
-👉 https://t.me/laynsb
+By using this Binary, you acknowledge that you have read, understood, 
+and agreed to be bound by these terms.
