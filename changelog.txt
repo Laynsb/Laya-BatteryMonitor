@@ -1,3 +1,18 @@
+~ V2.0-stable
+• Improved inotify mechanism
+• Added Inotify Overflow detection
+• Added more logging if inotify shows an abnormalities
+• Dynamically change inotify buffer if inotify overflow was detected
+• Reduce polling loop for property to 4s
+• Sleep 2s and retries if inotify error
+• Avoid Unused Cow<'static, str>
+• Reduced potential minor memory deduplication for screen state and governor string
+• Use Atomic for Bool State to Reduce locking overhead
+• Improved getprop function efficiency
+• Avoid .to_string() in default closure
+• [Inotify] Clamp the buffer_size growth to prevent it growing indefinitely
+• Offloading some logic into a background thread
+
 ~ V1.9-stable
 • Increases loop time to 5s to reduce overhead (also to reduce constantly checking debug.laya.battmon_enabled prop)
 • Improved log message clarity
