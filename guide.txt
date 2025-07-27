@@ -8,17 +8,16 @@
 •> debug.laya.battmon_enabled=0 means thread process is temporary terminated and goes into sleep mode
 
 # How to Implement Laya Batterymonitor into my vendor?
-Step 1: Place vendor.laya.battmon@1.x-service binary to /vendor/bin/hw/
+Step 1: Place vendor.laya.battmon@2.x-service binary to /vendor/bin/hw/
 Step 2: Place init.laya_battmon.rc to /vendor/etc/init/
 Step 3: Patch vendor sepolicy cil (ask developer or do it by yourself)
 Step 4: Done, you're great to repack your own vendor.
 
 # Required context:
-• /vendor/bin/hw/vendor.laya.battmon@1.x-service > u:object_r:vendor_file:s0
+• /vendor/bin/hw/vendor.laya.battmon@2.x-service > u:object_r:vendor_file:s0
 • /vendor/etc/init/init.laya_battmon.rc > u:object_r:vendor_configs_file:s0
 
 === Sepolicy Rules ===
-
 📝 Not all rom has the same denials list, if crashing, error, or acting abnormally then resolve other denials on your own.
 
 ## Laya battmon denials list:
