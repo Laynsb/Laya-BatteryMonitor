@@ -6,7 +6,7 @@ Laya-BatteryMonitor is a very lightweight and zero-overhead daemon service for A
 
 - Automatically reduces CPU frequency when the screen is off, saving power without impacting performance when the device is in use.
 - Switches to powersave governor in screen-off mode for better battery preservation.
-- Significantly Lowering device temperature during screen-off (especially during hotspot)
+- Significantly Lowering device temperature and Power consumption during screen-off (especially during hotspot)
 - Wide compatibility across all devices
 - Runs natively via OS's init and doesn't need a magisk module
 
