@@ -12,6 +12,7 @@
 • Avoid .to_string() in default closure
 • [Inotify] Clamp the buffer_size growth to prevent it growing indefinitely
 • Offloading some logic into a background thread
+• Significantly Improved compatibility across all devices (Exynos is working now, this should work in google tensor also or other unknown chipset)
 
 ~ V1.9-stable
 • Increases loop time to 5s to reduce overhead (also to reduce constantly checking debug.laya.battmon_enabled prop)
