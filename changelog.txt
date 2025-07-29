@@ -1,3 +1,10 @@
+~ V2.1-experimental (This is Experimental Version, does not represent the final results)
+• Reuses .join() paths once.
+• Safer name extraction with let Some(...) = to avoid hidden bugs.
+• Less .trim() redundancy (some min/max could include newline).
+• Avoid unnecessary .clone() on Option<String>
+• Minor logic improvement
+
 ~ V2.0-stable
 • Improved inotify mechanism
 • Added Inotify Overflow detection
