@@ -1,6 +1,6 @@
 # Laya-BatteryMonitor Introduction (Rust)
 
-Laya-BatteryMonitor is a very lightweight and zero-overhead daemon service for Android ROMs. It significantly minimizes power usage by adjusting the CPU frequency and governor based on the screen state.
+Laya-BatteryMonitor is a ultra lightweight and zero-overhead daemon service for Android ROMs. It significantly minimizes power usage by adjusting the CPU frequency and governor based on the screen state.
 
 ## Description
 
@@ -16,19 +16,19 @@ For installation and integration steps, refer to `guide.txt`.
 
 ## Core Behavior
 
-• 🧠 Smart CPU Policy Handling.
+🧠 Smart CPU Policy Handling.
 Dynamically manages CPU frequency and governor behavior based on screen state changes. Fully adaptive to any device configuration.
 
-• 🗑️ No dumpsys, No Bloat.
+🗑️ No dumpsys, No Bloat.
 Avoids Android's heavyweight system utilities (dumpsys, top, etc.) for efficiency. Instead, uses direct low-level file access and event monitoring via native sysfs interfaces.
 
-• 🔌 Event-Driven Power Saving.
+🔌 Event-Driven Power Saving.
 Monitors screen state using efficient inotify hooks to avoid polling and wakeups. Automatically applies power-saving CPU settings when the screen turns off, and restores the last-used performance state on wake.
 
-• ⚡ Microsecond-Class Efficiency.
+⚡ Microsecond-Class Efficiency.
 Written in a low-overhead systems language (Rust), focused on thread safety, zero-cost abstraction, and fast execution.
 
-• 📱 Modular & Headless.
+📱 Modular & Headless.
 No UI or frontend required. Designed for ROM integration. Can run silently in background with optional property toggling.
 
 ## LICENSE
