@@ -1,3 +1,23 @@
+~ V2.5-stable
+[General Improvements & Optimizations]
+• Changed from .debug to .persist property for better toggle handling
+• Removed redundant computations
+• Eliminated unnecessary heap allocations
+• Reduced function call overhead
+• Improved constant usage
+• [init] Ensures it doesn't restart on crash (prevent big overhead if something happends)
+• [init] Assign to foreground for CPU scheduling fairness
+• [init] Prioritize I/O to reduce sysfs latency
+
+[Algorithmic & Logic Enhancements]
+• Optimized loops
+• Avoided redundant clones and copies
+• Improved error handling performance
+
+[Memory & Safety Enhancements]
+• Preallocated collections with with_capacity
+• Used references instead of moving values
+
 ~ V2.1-stable
 • Reuses .join() paths once.
 • Safer name extraction with let Some(...) = to avoid hidden bugs.
