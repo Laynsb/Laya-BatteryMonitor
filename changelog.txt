@@ -1,6 +1,8 @@
-~ V2.5-stable
+~ V2.2-stable
 [General Improvements & Optimizations]
+• [GUIDE-&-README.txt] improved guidance & clarity for better understanding
 • Changed from .debug to .persist property for better toggle handling
+• Changed Battmon file context for better compatibility instead of init's context (re-read guide is required)
 • Removed redundant computations
 • Eliminated unnecessary heap allocations
 • Reduced function call overhead
